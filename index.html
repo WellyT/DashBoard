@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="generalNps card">
+          <p>NPS geral</p>
+          <div class="satisfact">
+            <img src="./assets/smite.svg" alt="" />
+            <strong>Excelente!</strong>
+          </div>
+          <span>NPS Score 75</span>
+        </div>
+        <div class="closedSells card">
+          <p>Vendas fechadas</p>
+          <div class="redondo progress">
+            <div class="redondo">
+              <strong>70%</strong>
+              <p>alcançada</p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="waited">
+              <div class="rounded"></div>
+              <p>Esperado 100</p>
+            </div>
+            <div class="waited">
+              <div class="rounded"></div>
+              <p>Alcançado 70</p>
+            </div>
+          </div>
+        </div>
+        <div class="monthlyGoal card">
+          <p>Meta mensal</p>
+          <div class="graph">
+            <div class="redondo progress">
+              <div class="redondo">
+                <strong>90%</strong>
+                <p>alcançada</p>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="waited">
+              <div class="rounded"></div>
+              <p>Esperado R$ 70k</p>
+            </div>
+            <div class="waited">
+              <div class="rounded"></div>
+              <p>Alcançado R$ 63k</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="weeklySells">
+        <div class="card">
+          <p>Vendas por dia da semana</p>
+          <div class="sells">
+            <div class="left-side">
+              <div class="moreSells">
+                <p>
+                  <svg
+                    width="13"
+                    height="12"
+                    viewBox="0 0 13 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.5 0.5L12.9952 11.75H0.00480938L6.5 0.5Z"
+                      fill="url(#paint0_linear_201_16)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_201_16"
+                        x1="6.5"
+                        y1="0.5"
+                        x2="6.5"
+                        y2="15.5"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#81FBB8" />
+                        <stop offset="1" stop-color="#28C76F" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  Dia com mais vendas
+                </p>
+                <span>quarta-feira</span>
+              </div>
+              <div class="lessSells">
+                <p>
+                  <svg
+                    width="13"
+                    height="12"
+                    viewBox="0 0 13 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.5 11.5L12.9952 0.25H0.00480938L6.5 11.5Z"
+                      fill="url(#paint0_linear_201_24)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_201_24"
+                        x1="6.5"
+                        y1="11.5"
+                        x2="6.5"
+                        y2="-3.5"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#EA5455" />
+                        <stop offset="1" stop-color="#FEB692" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  Dia com menos vendas
+                </p>
+                <span>domingo</span>
+              </div>
+            </div>
+            <div class="graphic">
+              <img src="./assets/graphic.png" alt="Grafico" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
